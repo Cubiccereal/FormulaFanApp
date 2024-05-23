@@ -10,13 +10,13 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
 
-        // Find buttons by their IDs
+        // buttons by their IDs
         val btnDriverDetails: ImageButton = findViewById(R.id.buttonDriverDetails)
         val btnLiveStandings: ImageButton = findViewById(R.id.buttonLiveStandings)
         val btnTrackLocations: ImageButton = findViewById(R.id.buttonTrackLocations)
         val btnSeasonCalendar: ImageButton = findViewById(R.id.buttonSeasonCalendar)
 
-        // Set click listeners for each button to navigate to corresponding activities
+        //click listeners for each button to navigate to corresponding activities
         btnDriverDetails.setOnClickListener {
             val intent = Intent(this, DriverProfilesActivity::class.java)
             startActivity(intent)

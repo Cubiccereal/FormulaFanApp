@@ -1,0 +1,290 @@
+[
+  {
+    "gp": "BAHRAIN GP",
+    "date": "02 MAR",
+    "time": "15:00",
+    "events": [
+      {"type": "FP1", "date": "29 FEB", "time": "11:30"},
+      {"type": "FP2", "date": "29 FEB", "time": "15:00"},
+      {"type": "FP3", "date": "01 MAR", "time": "12:30"},
+      {"type": "QU", "date": "01 MAR", "time": "16:00"},
+      {"type": "RACE", "date": "02 MAR", "time": "15:00"}
+    ]
+  },
+  {
+    "gp": "SAUDI ARABIAN GP",
+    "date": "09 MAR",
+    "time": "17:00",
+    "events": [
+      {"type": "FP1", "date": "07 MAR", "time": "13:30"},
+      {"type": "FP2", "date": "07 MAR", "time": "17:00"},
+      {"type": "FP3", "date": "08 MAR", "time": "13:30"},
+      {"type": "QU", "date": "08 MAR", "time": "17:00"},
+      {"type": "RACE", "date": "09 MAR", "time": "17:00"}
+    ]
+  },
+  {
+    "gp": "AUSTRALIAN GP",
+    "date": "24 MAR",
+    "time": "04:00",
+    "events": [
+      {"type": "FP1", "date": "22 MAR", "time": "01:30"},
+      {"type": "FP2", "date": "22 MAR", "time": "05:00"},
+      {"type": "FP3", "date": "23 MAR", "time": "01:30"},
+      {"type": "QU", "date": "23 MAR", "time": "05:00"},
+      {"type": "RACE", "date": "24 MAR", "time": "04:00"}
+    ]
+  },
+  {
+    "gp": "JAPANESE GP",
+    "date": "07 APR",
+    "time": "06:00",
+    "events": [
+      {"type": "FP1", "date": "05 APR", "time": "03:30"},
+      {"type": "FP2", "date": "05 APR", "time": "07:00"},
+      {"type": "FP3", "date": "06 APR", "time": "03:30"},
+      {"type": "QU", "date": "06 APR", "time": "07:00"},
+      {"type": "RACE", "date": "07 APR", "time": "06:00"}
+    ]
+  },
+  {
+    "gp": "CHINESE GP",
+    "date": "21 APR",
+    "time": "08:00",
+    "events": [
+      {"type": "FP1", "date": "19 APR", "time": "04:30"},
+      {"type": "SPRINT QU", "date": "19 APR", "time": "08:30"},
+      {"type": "SPRINT", "date": "20 APR", "time": "04:00"},
+      {"type": "QU", "date": "20 APR", "time": "08:00"},
+      {"type": "RACE", "date": "21 APR", "time": "08:00"}
+    ]
+  },
+  {
+    "gp": "MIAMI GP",
+    "date": "05 MAY",
+    "time": "21:00",
+    "events": [
+      {"type": "FP1", "date": "03 MAY", "time": "17:30"},
+      {"type": "SPRINT QU", "date": "03 MAY", "time": "21:30"},
+      {"type": "SPRINT", "date": "04 MAY", "time": "17:00"},
+      {"type": "QU", "date": "04 MAY", "time": "21:00"},
+      {"type": "RACE", "date": "05 MAY", "time": "21:00"}
+    ]
+  },
+  {
+    "gp": "EMILIA ROMAGNA GP",
+    "date": "19 MAY",
+    "time": "14:00",
+    "events": [
+      {"type": "FP1", "date": "17 MAY", "time": "12:30"},
+      {"type": "FP2", "date": "17 MAY", "time": "16:00"},
+      {"type": "FP3", "date": "18 MAY", "time": "11:30"},
+      {"type": "QU", "date": "18 MAY", "time": "15:00"},
+      {"type": "RACE", "date": "19 MAY", "time": "14:00"}
+    ]
+  },
+  {
+    "gp": "MONACO GP",
+    "date": "26 MAY",
+    "time": "14:00",
+    "events": [
+      {"type": "FP1", "date": "24 MAY", "time": "12:30"},
+      {"type": "FP2", "date": "24 MAY", "time": "16:00"},
+      {"type": "FP3", "date": "25 MAY", "time": "11:30"},
+      {"type": "QU", "date": "25 MAY", "time": "15:00"},
+      {"type": "RACE", "date": "26 MAY", "time": "14:00"}
+    ]
+  },
+  {
+    "gp": "CANADIAN GP",
+    "date": "09 JUN",
+    "time": "19:00",
+    "events": [
+      {"type": "FP1", "date": "07 JUN", "time": "18:30"},
+      {"type": "FP2", "date": "07 JUN", "time": "22:00"},
+      {"type": "FP3", "date": "08 JUN", "time": "17:30"},
+      {"type": "QU", "date": "08 JUN", "time": "21:00"},
+      {"type": "RACE", "date": "09 JUN", "time": "19:00"}
+    ]
+  },
+  {
+    "gp": "SPANISH GP",
+    "date": "23 JUN",
+    "time": "14:00",
+    "events": [
+      {"type": "FP1", "date": "21 JUN", "time": "12:30"},
+      {"type": "FP2", "date": "21 JUN", "time": "16:00"},
+      {"type": "FP3", "date": "22 JUN", "time": "11:30"},
+      {"type": "QU", "date": "22 JUN", "time": "15:00"},
+      {"type": "RACE", "date": "23 JUN", "time": "14:00"}
+    ]
+  },
+  {
+    "gp": "AUSTRIAN GP",
+    "date": "30 JUN",
+    "time": "14:00",
+    "events": [
+      {"type": "FP1", "date": "28 JUN", "time": "11:30"},
+      {"type": "SPRINT QU", "date": "28 JUN", "time": "15:30"},
+      {"type": "SPRINT", "date": "29 JUN", "time": "11:00"},
+      {"type": "QU", "date": "29 JUN", "time": "15:00"},
+      {"type": "RACE", "date": "30 JUN", "time": "14:00"}
+    ]
+  },
+  {
+    "gp": "BRITISH GP",
+    "date": "07 JUL",
+    "time": "15:00",
+    "events": [
+      {"type": "FP1", "date": "05 JUL", "time": "12:30"},
+      {"type": "FP2", "date": "05 JUL", "time": "16:00"},
+      {"type": "FP3", "date": "06 JUL", "time": "11:30"},
+      {"type": "QU", "date": "06 JUL", "time": "15:00"},
+      {"type": "RACE", "date": "07 JUL", "time": "15:00"}
+    ]
+  },
+  {
+    "gp": "HUNGARIAN GP",
+    "date": "21 JUL",
+    "time": "14:00",
+    "events": [
+      {"type": "FP1", "date": "19 JUL", "time": "12:30"},
+      {"type": "FP2", "date": "19 JUL", "time": "16:00"},
+      {"type": "FP3", "date": "20 JUL", "time": "11:30"},
+      {"type": "QU", "date": "20 JUL", "time": "15:00"},
+      {"type": "RACE", "date": "21 JUL", "time": "14:00"}
+    ]
+  },
+  {
+    "gp": "BELGIAN GP",
+    "date": "28 JUL",
+    "time": "14:00",
+    "events": [
+      {"type": "FP1", "date": "26 JUL", "time": "12:30"},
+      {"type": "FP2", "date": "26 JUL", "time": "16:00"},
+      {"type": "FP3", "date": "27 JUL", "time": "11:30"},
+      {"type": "QU", "date": "27 JUL", "time": "15:00"},
+      {"type": "RACE", "date": "28 JUL", "time": "14:00"}
+    ]
+  },
+  {
+    "gp": "DUTCH GP",
+    "date": "25 AUG",
+    "time": "14:00",
+    "events": [
+      {"type": "FP1", "date": "23 AUG", "time": "11:30"},
+      {"type": "FP2", "date": "23 AUG", "time": "15:00"},
+      {"type": "FP3", "date": "24 AUG", "time": "10:30"},
+      {"type": "QU", "date": "24 AUG", "time": "14:00"},
+      {"type": "RACE", "date": "25 AUG", "time": "14:00"}
+    ]
+  },
+  {
+    "gp": "ITALIAN GP",
+    "date": "01 SEPT",
+    "time": "14:00",
+    "events": [
+      {"type": "FP1", "date": "30 AUG", "time": "12:30"},
+      {"type": "FP2", "date": "30 AUG", "time": "16:00"},
+      {"type": "FP3", "date": "31 AUG", "time": "11:30"},
+      {"type": "QU", "date": "31 AUG", "time": "15:00"},
+      {"type": "RACE", "date": "01 SEPT", "time": "14:00"}
+    ]
+  },
+  {
+    "gp": "AZERBAIJAN GP",
+    "date": "15 SEPT",
+    "time": "12:00",
+    "events": [
+      {"type": "FP1", "date": "13 SEPT", "time": "10:30"},
+      {"type": "FP2", "date": "13 SEPT", "time": "14:00"},
+      {"type": "FP3", "date": "14 SEPT", "time": "09:30"},
+      {"type": "QU", "date": "14 SEPT", "time": "13:00"},
+      {"type": "RACE", "date": "15 SEPT", "time": "12:00"}
+    ]
+  },
+  {
+    "gp": "SINGAPORE GP",
+    "date": "22 SEPT",
+    "time": "13:00",
+    "events": [
+      {"type": "FP1", "date": "20 SEPT", "time": "10:30"},
+      {"type": "FP2", "date": "20 SEPT", "time": "14:00"},
+      {"type": "FP3", "date": "21 SEPT", "time": "10:30"},
+      {"type": "QU", "date": "21 SEPT", "time": "14:00"},
+      {"type": "RACE", "date": "22 SEPT", "time": "13:00"}
+    ]
+  },
+  {
+    "gp": "UNITED STATES GP",
+    "date": "20 OCT",
+    "time": "20:00",
+    "events": [
+      {"type": "FP1", "date": "18 OCT", "time": "18:30"},
+      {"type": "SPRINT QU", "date": "18 OCT", "time": "22:30"},
+      {"type": "SPRINT", "date": "19 OCT", "time": "19:00"},
+      {"type": "QU", "date": "19 OCT", "time": "23:00"},
+      {"type": "RACE", "date": "20 OCT", "time": "20:00"}
+    ]
+  },
+  {
+    "gp": "MEXICAN GP",
+    "date": "27 OCT",
+    "time": "20:00",
+    "events": [
+      {"type": "FP1", "date": "25 OCT", "time": "18:30"},
+      {"type": "FP2", "date": "25 OCT", "time": "22:00"},
+      {"type": "FP3", "date": "26 OCT", "time": "17:30"},
+      {"type": "QU", "date": "26 OCT", "time": "21:00"},
+      {"type": "RACE", "date": "27 OCT", "time": "20:00"}
+    ]
+  },
+  {
+    "gp": "BRAZILIAN GP",
+    "date": "03 NOV",
+    "time": "17:00",
+    "events": [
+      {"type": "FP1", "date": "01 NOV", "time": "14:30"},
+      {"type": "SPRINT QU", "date": "01 NOV", "time": "18:30"},
+      {"type": "SPRINT", "date": "02 NOV", "time": "14:00"},
+      {"type": "QU", "date": "02 NOV", "time": "18:00"},
+      {"type": "RACE", "date": "03 NOV", "time": "17:00"}
+    ]
+  },
+  {
+    "gp": "LAS VEGAS GP",
+    "date": "24 NOV",
+    "time": "06:00",
+    "events": [
+      {"type": "FP1", "date": "22 NOV", "time": "02:30"},
+      {"type": "FP2", "date": "22 NOV", "time": "06:00"},
+      {"type": "FP3", "date": "23 NOV", "time": "02:30"},
+      {"type": "QU", "date": "23 NOV", "time": "06:00"},
+      {"type": "RACE", "date": "24 NOV", "time": "06:00"}
+    ]
+  },
+  {
+    "gp": "QATAR GP",
+    "date": "01 DEC",
+    "time": "17:00",
+    "events": [
+      {"type": "FP1", "date": "29 NOV", "time": "13:30"},
+      {"type": "SPRINT QU", "date": "29 NOV", "time": "17:30"},
+      {"type": "SPRINT", "date": "30 NOV", "time": "13:00"},
+      {"type": "QU", "date": "30 NOV", "time": "17:00"},
+      {"type": "RACE", "date": "01 DEC", "time": "17:00"}
+    ]
+  },
+  {
+    "gp": "ABU DHABI GP",
+    "date": "08 DEC",
+    "time": "13:00",
+    "events": [
+      {"type": "FP1", "date": "06 DEC", "time": "09:30"},
+      {"type": "FP2", "date": "06 DEC", "time": "13:00"},
+      {"type": "FP3", "date": "07 DEC", "time": "10:30"},
+      {"type": "QU", "date": "07 DEC", "time": "14:00"},
+      {"type": "RACE", "date": "08 DEC", "time": "13:00"}
+    ]
+  }
+]

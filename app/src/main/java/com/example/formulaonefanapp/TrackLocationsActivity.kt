@@ -31,7 +31,7 @@ class TrackLocationsActivity : AppCompatActivity(), OnMapReadyCallback {
         mapView.onCreate(savedInstanceState)
         mapView.getMapAsync(this)
 
-        // Setup zoom buttons
+        // Setup of zoom buttons
         val zoomInButton = findViewById<Button>(R.id.zoom_in_button)
         val zoomOutButton = findViewById<Button>(R.id.zoom_out_button)
 
@@ -47,21 +47,21 @@ class TrackLocationsActivity : AppCompatActivity(), OnMapReadyCallback {
     override fun onMapReady(map: GoogleMap) {
         googleMap = map
 
-        // Load GeoJSON file
+        // Loading the GeoJSON file
         val geoJsonData = loadGeoJsonFromAsset("f1locations.geojson")
         val layer = GeoJsonLayer(googleMap, geoJsonData)
 
-        // Add the GeoJSON layer to the map
+        // the GeoJSON layer to the map
         layer.addLayerToMap()
 
-        // Set custom info window adapter
+        // custom info window adapter
         googleMap.setInfoWindowAdapter(CustomInfoWindowAdapter())
 
-        // Move the camera to a specific location
+        // the camera to a specific location
         val initialLocation = LatLng(20.0, 0.0)  // Update with a default location
         googleMap.moveCamera(CameraUpdateFactory.newLatLngZoom(initialLocation, 2.0f))
 
-        // Add title and snippet to markers
+        // title and snippet to markers
         for (feature in layer.features) {
             val point = feature.geometry as? GeoJsonPoint
             if (point != null) {
@@ -74,7 +74,7 @@ class TrackLocationsActivity : AppCompatActivity(), OnMapReadyCallback {
             }
         }
 
-        // Set a marker click listener to show info window with the properties
+        // marker click listener to show info window
         googleMap.setOnMarkerClickListener { marker ->
             marker.showInfoWindow()
             true

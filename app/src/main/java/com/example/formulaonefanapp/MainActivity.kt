@@ -1,14 +1,23 @@
 package com.example.formulaonefanapp
 
 import android.content.Intent
-import androidx.appcompat.app.AppCompatActivity
+import android.net.Uri
 import android.os.Bundle
 import android.widget.ImageButton
+import androidx.appcompat.app.AppCompatActivity
 
 class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
+
+        val buttonF1Store: ImageButton = findViewById(R.id.buttonF1Store)
+        buttonF1Store.setOnClickListener {
+            val url = "https://f1store.formula1.com"
+            val intent = Intent(Intent.ACTION_VIEW)
+            intent.data = Uri.parse(url)
+            startActivity(intent)
+        }
 
         // buttons by their IDs
         val btnDriverDetails: ImageButton = findViewById(R.id.buttonDriverDetails)

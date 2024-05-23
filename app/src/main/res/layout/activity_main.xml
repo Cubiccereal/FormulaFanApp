@@ -7,45 +7,46 @@
     tools:context=".MainActivity"
     android:background="@drawable/wallpaper">
 
-    <!-- ImageButton for Driver Details (Aligned Vertically on the Right Side) -->
     <ImageButton
         android:id="@+id/buttonDriverDetails"
-        android:layout_width="245dp"
-        android:layout_height="850dp"
+        android:layout_width="300dp"
+        android:layout_height="528dp"
+        android:layout_marginStart="225dp"
+        android:layout_marginEnd="4dp"
         android:background="@null"
         android:scaleType="fitCenter"
         android:src="@drawable/driverdetailsbutton"
-        app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        android:layout_marginEnd="1dp"/>
+        app:layout_constraintStart_toStartOf="@+id/buttonLiveStandings"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0" />
 
-    <!-- ImageButton for Live Standings (Aligned Vertically on the Left Side) -->
     <ImageButton
         android:id="@+id/buttonLiveStandings"
         android:layout_width="250dp"
         android:layout_height="225dp"
+        android:layout_marginStart="16dp"
         android:background="@null"
         android:scaleType="fitCenter"
         android:src="@drawable/livestandingsbutton"
-        android:layout_marginStart="16dp"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintStart_toStartOf="parent"/>
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
 
-    <!-- ImageButton for Season Calendar (Aligned Vertically on the Left Side) -->
+
+
     <ImageButton
         android:id="@+id/buttonSeasonCalendar"
         android:layout_width="190dp"
         android:layout_height="180dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
         android:background="@null"
         android:scaleType="fitCenter"
         android:src="@drawable/seasoncalendarbutton"
-        android:layout_marginStart="16dp"
-        android:layout_marginTop="16dp"
-        app:layout_constraintTop_toBottomOf="@id/buttonLiveStandings"
-        app:layout_constraintStart_toStartOf="parent"/>
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/buttonLiveStandings" />
 
-    <!-- ImageButton for Track Locations (Aligned Vertically on the Left Side) -->
     <ImageButton
         android:id="@+id/buttonTrackLocations"
         android:layout_width="200dp"
@@ -57,5 +58,18 @@
         android:layout_marginTop="16dp"
         app:layout_constraintTop_toBottomOf="@id/buttonSeasonCalendar"
         app:layout_constraintStart_toStartOf="parent"/>
+
+    <ImageButton
+        android:id="@+id/buttonF1Store"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:layout_margin="9dp"
+        android:layout_marginTop="9dp"
+        android:scaleType="fitCenter"
+        android:layout_marginEnd="9dp"
+        android:background="@android:color/transparent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/buttonSeasonCalendar"
+        app:srcCompat="@drawable/f1storebutton" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
